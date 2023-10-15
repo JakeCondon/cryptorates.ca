@@ -1,0 +1,263 @@
+body{font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.headercontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top:0.5rem;
+    width: 100%;
+    margin: auto
+}
+
+
+
+.header{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: fit-content;
+  }
+
+
+  .headerli{
+    padding: 8px;
+    display: block;
+    border: 1px solid transparent;
+    margin: 0px 4px;
+  }
+
+
+ .headerli > a {
+    color: #000000;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+
+
+
+.titlecontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom:30px
+
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+.subtitlecontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px
+
+
+}
+
+.subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+.fundlogo{
+    height:30px;
+    width: 30px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    
+  }
+
+  .coinlogo{
+    height:40px;
+    width: 40px;
+    margin-right: 8px;
+}
+
+.coinlogocontainer{
+    display: flex;
+    margin-left:8px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    justify-content: start;
+    width: 84%;
+
+}
+
+
+.tableheadercontainer{
+    display: flex;
+
+
+}
+
+.tableheader{
+font-size: 2rem;
+font-weight: 600;
+}
+
+
+
+.maintablecontainer{
+    table-layout:auto;
+    margin: auto;
+    justify-content: center;
+    width: 85%;
+    margin-top: 10px;
+    margin-bottom:30px;
+
+}
+
+
+
+
+table {
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    border-bottom: 1px solid #eff2f5;
+    text-align: left;
+    padding: 16px;
+
+  }
+
+
+  
+
+
+  .defaultcontainer{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .fundlogocontainer{
+
+  }
+
+
+
+.tableborder{
+        border-bottom: 1px solid #eff2f5;
+        text-align: left;
+         padding: 16px;
+}
+
+
+.btcchartcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px
+}
+
+.btcchart_img{
+    border: solid 1px black;
+    max-width: 85%;
+}
+
+
+.btctitlebox{
+    display: flex;
+    justify-content: center;
+}
+
+.btctitle{
+font-size: 1.1rem;
+font-weight: 700;}
+
+.chartdescription{
+    display: flex;
+    margin: auto;
+    justify-content: start;
+    width: 82%;
+}
+
+
+
+.explanation_container{
+    max-width: 82%;
+    margin: auto;
+}
+
+
+.h2topmargin{
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.merchart{
+    max-width: 85%;
+}
+
+
+.wealthsimpleimg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 40vh
+}
+
+.ad{
+    font-size: 1.3rem;
+}
+
+
+.bigger{
+    font-size: 1.1rem;
+}
+
+
+
+.lastupdatedcontainer{
+    margin: auto;
+    width: 85%;
+    margin-bottom:40px;
+}
+
+.lastupdated{
+    color:#727272;
+    font-size: 0.7rem;
+}
+
+
+.disclaimercontainer{
+    margin: auto;
+    width: 85%;
+    margin-top: 50px;
+}
+
+.disclaimerfont{
+font-size: 0.7rem;
+
+}
+
+
+.abouttitlecontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px
+}
