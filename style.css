@@ -182,6 +182,7 @@ th, td {
 .btctitlebox{
     display: flex;
     justify-content: center;
+    margin: auto
 }
 
 .btctitle{
