@@ -169,8 +169,11 @@ th, td {
 .btcchartcontainer{
     display: flex;
     justify-content: center;
-    margin-top: 20px
+    margin-top: 20px;
+    
 }
+
+
 
 .btcchart_img{
     border: solid 1px black;
@@ -178,15 +181,6 @@ th, td {
 }
 
 
-.btctitlebox{
-    display: flex;
-    justify-content: center;
-    margin: auto
-}
-
-.btctitle{
-font-size: 1.1rem;
-font-weight: 700;}
 
 .chartdescription{
     display: flex;
@@ -194,6 +188,28 @@ font-weight: 700;}
     justify-content: start;
     width: 82%;
 }
+
+
+
+.btctitlebox{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px
+}
+
+.btctitle{
+font-size: 1.1rem;
+font-weight: 700;}
+
+
+
+
+
+
+
+
+
 
 
 
